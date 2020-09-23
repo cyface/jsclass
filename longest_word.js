@@ -1,3 +1,19 @@
+/*
+Function to find the first longest word in a string
+Uses regex to find only the words, and then uses .reduce to find the first longest word
+ */
+
+const wordRegExp = /[a-zA-Z]+/gm
+const reducer = (accumulator, currentValue) => (currentValue.length > accumulator.length) ? currentValue : accumulator
+
+let findLongestWord = stringToSearch => {
+    const words = stringToSearch.match(wordRegExp)||["NO_WORDS_FOUND",]
+    return words.reduce(reducer, words[0])
+}
+
+/*
+Below are large test strings to test with.
+ */
 const testString = "this^%^&is%^&&a$%^&list%^&of  anthropomorphic words %^$$ \nof varying ^%%%% lengths"
 const testString2 = "Bacon ipsum dolor amet boudin picanha tri-tip, porchetta shank buffalo rump prosciutto leberkas chicken venison flank. Salami spare ribs pig meatloaf cow ham hock capicola. Capicola filet mignon swine brisket turducken short loin andouille pork chop landjaeger venison corned beef pork loin prosciutto shank pig. Jerky prosciutto biltong cow meatball burgdoggen. Prosciutto bresaola biltong tail turkey pork belly. Drumstick ham hock boudin landjaeger burgdoggen rump brisket ground round porchetta corned beef prosciutto.\n" +
     "\n" +
@@ -113,16 +129,7 @@ const testString3 = "I'm baby enamel pin asymmetrical pabst vaporware intelligen
     "Dummy text? More like dummy thicc text, amirite?"
 const testString4 = "%^&*#$834934878324"
 
-const wordRegExp = /[a-zA-Z]+/gm
-const reducer = (accumulator, currentValue) => (currentValue.length > accumulator.length) ? currentValue : accumulator
-
-let findLongestWord = stringToSearch => {
-    const words = stringToSearch.match(wordRegExp)||["NO_WORDS_FOUND",]
-    const longestWord = words.reduce(reducer, words[0])
-    console.log(`The First Longest Word Was: ${longestWord}`)
-}
-
-findLongestWord(testString)
-findLongestWord(testString2)
-findLongestWord(testString3)
-findLongestWord(testString4)
+console.log(`The First Longest Word Was: ${findLongestWord(testString)}`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString2)}`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString3)}`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString4)}`)
