@@ -128,7 +128,7 @@ const testString3 = 'I\'m baby enamel pin asymmetrical pabst vaporware intellige
   'Dummy text? More like dummy thicc text, amirite?'
 const testString4 = '%^&*#$834934878324'
 
-console.log(`The First Longest Word Was: ${findLongestWord(testString)}`)
-console.log(`The First Longest Word Was: ${findLongestWord(testString2)}`)
-console.log(`The First Longest Word Was: ${findLongestWord(testString3)}`)
-console.log(`The First Longest Word Was: ${findLongestWord(testString4)}`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString)} and should be varying`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString2)} and should be frankfurter`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString3)} and should be intelligentsia`)
+console.log(`The First Longest Word Was: ${findLongestWord(testString4)} and should be NO_WORDS_FOUND`)
