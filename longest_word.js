@@ -111,12 +111,13 @@ const testString3 = "I'm baby enamel pin asymmetrical pabst vaporware intelligen
     "Migas leggings paleo, chambray readymade wayfarers blue bottle ethical twee kogi keffiyeh man braid. Hot chicken distillery trust fund put a bird on it iceland YOLO PBR&B vape pinterest hoodie direct trade. Woke pop-up irony locavore forage plaid cardigan blue bottle hammock cold-pressed schlitz pork belly. DIY tumeric cronut heirloom, woke drinking vinegar subway tile copper mug freegan hashtag hexagon. Coloring book fashion axe street art pug. Disrupt gastropub migas farm-to-table yr yuccie. Pitchfork selvage fingerstache lomo viral ugh tumeric.\n" +
     "\n" +
     "Dummy text? More like dummy thicc text, amirite?"
+const testString4 = "%^&*#$834934878324"
 
 const wordRegExp = /[a-zA-Z]+/gm
 const reducer = (accumulator, currentValue) => (currentValue.length > accumulator.length) ? currentValue : accumulator
 
 let findLongestWord = stringToSearch => {
-    const words = stringToSearch.match(wordRegExp)
+    const words = stringToSearch.match(wordRegExp)||["NO_WORDS_FOUND",]
     const longestWord = words.reduce(reducer, words[0])
     console.log(`The First Longest Word Was: ${longestWord}`)
 }
@@ -124,3 +125,4 @@ let findLongestWord = stringToSearch => {
 findLongestWord(testString)
 findLongestWord(testString2)
 findLongestWord(testString3)
+findLongestWord(testString4)

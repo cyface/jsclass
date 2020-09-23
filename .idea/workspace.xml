@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab83da99-a790-4230-81c0-c744cb6f198c" name="Default Changelist" comment="" />
+    <list default="true" id="ab83da99-a790-4230-81c0-c744cb6f198c" name="Default Changelist" comment="initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/longest_word.js" beforeDir="false" afterPath="$PROJECT_DIR$/longest_word.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -52,11 +74,35 @@
       <option name="presentableId" value="Default" />
       <updated>1600884409506</updated>
       <workItem from="1600884410532" duration="4529000" />
+      <workItem from="1600890148355" duration="356000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1600890204976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600890204976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1598" y="597" key="Github.ShareDialog" timestamp="1600890103738">
@@ -67,22 +113,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="669" y="204" key="Github.UntrackedFilesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1600890111801" />
-    <state width="3419" height="328" key="GridCell.Tab.0.bottom" timestamp="1600890141288">
+    <state width="3419" height="595" key="GridCell.Tab.0.bottom" timestamp="1600890491471">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3419" height="328" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1600890141288" />
-    <state width="3419" height="328" key="GridCell.Tab.0.center" timestamp="1600890141288">
+    <state width="3419" height="595" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1600890491471" />
+    <state width="3419" height="595" key="GridCell.Tab.0.center" timestamp="1600890491471">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3419" height="328" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1600890141288" />
-    <state width="3419" height="328" key="GridCell.Tab.0.left" timestamp="1600890141288">
+    <state width="3419" height="595" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1600890491471" />
+    <state width="3419" height="595" key="GridCell.Tab.0.left" timestamp="1600890491471">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3419" height="328" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1600890141288" />
-    <state width="3419" height="328" key="GridCell.Tab.0.right" timestamp="1600890141288">
+    <state width="3419" height="595" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1600890491471" />
+    <state width="3419" height="595" key="GridCell.Tab.0.right" timestamp="1600890491471">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="3419" height="328" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1600890141288" />
+    <state width="3419" height="595" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1600890491471" />
     <state width="3419" height="328" key="GridCell.Tab.1.bottom" timestamp="1600890141288">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -135,6 +181,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="350" y="144" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1600890140159" />
+    <state x="441" y="232" key="Vcs.Push.Dialog.v2" timestamp="1600890206442">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="441" y="232" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1600890206442" />
     <state x="92" y="92" width="3256" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600886709052">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
