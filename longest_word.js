@@ -1,6 +1,6 @@
 /*
-Function to find the first longest word in a string
-Uses regex to find only the words, and then uses .reduce to find the first longest word from that array
+ * Function to find the first longest word in a string
+ * Uses regex to find only the words, and then uses .reduce to find the first longest word from that array
  */
 
 let findLongestWord = stringToSearch => {
@@ -11,7 +11,7 @@ let findLongestWord = stringToSearch => {
 }
 
 /*
-Below are large test strings to test with.
+ * Below are large test strings to test with.
  */
 const testString = 'this^%^&is%^&&a$%^&list%^&of \r  words %^$$ \nof varying ^%%%% lengths'
 const testString2 = 'Bacon ipsum dolor amet boudin picanha tri-tip, porchetta shank buffalo rump prosciutto leberkas chicken venison flank. Salami spare ribs pig meatloaf cow ham hock capicola. Capicola filet mignon swine brisket turducken short loin andouille pork chop landjaeger venison corned beef pork loin prosciutto shank pig. Jerky prosciutto biltong cow meatball burgdoggen. Prosciutto bresaola biltong tail turkey pork belly. Drumstick ham hock boudin landjaeger burgdoggen rump brisket ground round porchetta corned beef prosciutto.\n' +
