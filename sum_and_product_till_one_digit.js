@@ -11,10 +11,10 @@
  Output: 2
  **/
 
-function sumAndProductTillSingle() {
-  const args = Array.from(arguments); // Convert arguments to an array we can reduce
+function sumAndProductTillSingle () {
+  const args = Array.from(arguments) // Convert arguments to an array we can reduce
 
-  const argSum = args.reduce((runningSum, currentNum) =>  runningSum + currentNum) // Sum all args
+  const argSum = args.reduce((runningSum, currentNum) => runningSum + currentNum) // Sum all args
 
   // Create product of digits of sum
   const product = argSum.toString().split('').reduce(
@@ -29,6 +29,6 @@ function sumAndProductTillSingle() {
   }
 }
 
-console.log(`Final Answer: ${sumAndProductTillSingle(16,28)}`) // Should be 6
+console.log(`Final Answer: ${sumAndProductTillSingle(16, 28)}`) // Should be 6
 console.log(`Final Answer: ${sumAndProductTillSingle(0)}`) // Should be 0
 console.log(`Final Answer: ${sumAndProductTillSingle(1, 2, 3, 4, 5, 6)}`) // Should be 2
