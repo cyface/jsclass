@@ -26,7 +26,7 @@ function sumAndProductTillSingle () {
 
   // Check product digit count, and recurse if > 1, otherwise return
   if (product.toString().length > 1) {
-    return sumAndProductTillSingle(product, 0)
+    return sumAndProductTillSingle(product)
   } else {
     return product
   }
