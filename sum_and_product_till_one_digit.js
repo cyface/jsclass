@@ -42,4 +42,6 @@ console.log(`Final Answer: ${sumAndProductTillSingle(1, 2, 3, 4, 5, 6)}`) // Sho
 * I wouldn't make a function that took unbounded args.  If I really needed to do this, I'd make it take an array of Ints
 * Recursion is probably the right way to handle this, but might be possible to do it with nested reduce.
 * This doesn't handle floats/doubles or non-number args correctly
+* I considered putting in a check at the front to skip the sum step if there was only one arg, but I think
+* those Array.from and reduce operations are internally optimized for that situation.
  */
