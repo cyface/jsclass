@@ -31,11 +31,7 @@ function sumAndProductTillSingle () {
     return product
   }
 }
-
-console.log(`Final Answer: ${sumAndProductTillSingle(16, 28)}`) // Should be 6
-console.log(`Final Answer: ${sumAndProductTillSingle(0)}`) // Should be 0
-console.log(`Final Answer: ${sumAndProductTillSingle(1, 2, 3, 4, 5, 6)}`) // Should be 2
-
+module.exports = sumAndProductTillSingle
 
 /*
 * Notes :
